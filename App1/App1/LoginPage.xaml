@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.LoginPage">
+    <StackLayout Orientation="Vertical">
+        <Label Margin="0, 30, 0, 20"  HorizontalOptions="Center" Text="Bienvenue" />
+
+        <Editor Placeholder="Email"/>
+        <Entry Placeholder="Mot de passe" IsPassword="true" />
+        <Button Margin="0, 20, 0, 0"  Text="Se Connecter" Clicked="Button_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
