@@ -31,7 +31,7 @@ namespace App1
                     new AcceuilPageMenuItem { Id = 0, Title = "Mes offres", TargetType = typeof(OffresPage) },
                     new AcceuilPageMenuItem { Id = 1, Title = "Mes Clients", TargetType = typeof(ClientsPage) },
                     new AcceuilPageMenuItem { Id = 2, Title = "Mes Ventes", TargetType = typeof(VentesPage) },
-                    new AcceuilPageMenuItem { Id = 3, Title = "Mon Profil" },
+                    new AcceuilPageMenuItem { Id = 3, Title = "Mon Profil", TargetType = typeof(ProfilePage)},
                     new AcceuilPageMenuItem { Id = 4, Title = "Se déconnecter" , TargetType = typeof(LoginPage) }
                 });
             }

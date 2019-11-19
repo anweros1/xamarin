@@ -19,7 +19,8 @@ namespace App1
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Bienvenu", "Bienvenu taha", "OK");
+            Navigation.PushAsync(new AcceuilPage());
+            Navigation.RemovePage(this);
         }
     }
 }

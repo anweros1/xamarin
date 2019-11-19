@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "projectandroid", "projectandroid\projectandroid\projectandroid.csproj", "{C789B5D2-E7CB-4BBF-B52F-DBC7A4EF5F06}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Android", "App1\App1.Android\App1.Android.csproj", "{C799EFF3-6A5A-4375-AFB9-ED8ABA8A711A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1\App1.csproj", "{707282D9-475B-4152-BF3D-31B056B4419D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App1", "App1\App1\App1.csproj", "{707282D9-475B-4152-BF3D-31B056B4419D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C789B5D2-E7CB-4BBF-B52F-DBC7A4EF5F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C789B5D2-E7CB-4BBF-B52F-DBC7A4EF5F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C789B5D2-E7CB-4BBF-B52F-DBC7A4EF5F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C789B5D2-E7CB-4BBF-B52F-DBC7A4EF5F06}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C799EFF3-6A5A-4375-AFB9-ED8ABA8A711A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C799EFF3-6A5A-4375-AFB9-ED8ABA8A711A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C799EFF3-6A5A-4375-AFB9-ED8ABA8A711A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU

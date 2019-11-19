@@ -4,9 +4,21 @@
              x:Class="App1.ClientsPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Clients page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView Margin="10" x:Name="LvDataBinding">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="Nom: " />
+                            <Label Text="{Binding Nom}" Style="Bold" />
+                            <Label Text=" " />
+                            <Label Text="{Binding Prenom}" Style="Bold" />
+                            <Label Text=" (" />
+                            <Label Text="{Binding Offre}" />
+                            <Label Text=")" />
+                        </StackLayout>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
